@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2025/02/06/hello-world/"/>
+      <url>/2025/02/06/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>从秦岭脚下到代码世界——一名西科IT人的成长之路</title>
+      <link href="/2025/02/05/ge-ren-gong-zuo-jing-li/"/>
+      <url>/2025/02/05/ge-ren-gong-zuo-jing-li/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://image.baidu.com/search/detail?ct=503316480&amp;z=0&amp;ipn=d&amp;word=%E8%A5%BF%E5%AE%89%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6%E4%B8%B4%E6%BD%BC%E6%A0%A1%E5%8C%BA%E5%9B%BE%E4%B9%A6%E9%A6%86&amp;step_word=&amp;hs=0&amp;pn=4&amp;spn=0&amp;di=7456461798821068801&amp;pi=0&amp;rn=1&amp;tn=baiduimagedetail&amp;is=0,0&amp;istype=0&amp;ie=utf-8&amp;oe=utf-8&amp;in=&amp;cl=2&amp;lm=-1&amp;st=undefined&amp;cs=426632885,1591126980&amp;os=3175803368,2416908425&amp;simid=3500010156,507221075&amp;adpicid=0&amp;lpn=0&amp;ln=1008&amp;fr=&amp;fmq=1738919597184_R&amp;fm=&amp;ic=undefined&amp;s=undefined&amp;hd=undefined&amp;latest=undefined&amp;copyright=undefined&amp;se=&amp;sme=&amp;tab=0&amp;width=undefined&amp;height=undefined&amp;face=undefined&amp;ist=&amp;jit=&amp;cg=&amp;bdtype=0&amp;oriquery=&amp;objurl=https://bkimg.cdn.bcebos.com/pic/024f78f0f736afc35939c771b819ebc4b74512e8&amp;fromurl=ippr_z2C$qAzdH3FAzdH3Fkwthj_z&amp;e3Bkwt17_z&amp;e3Bv54AzdH3Ftpj4AzdH3F%25Eb%25Ac%25BF%25Ec%25AE%25bl%25E0%25A0%25l8%25Em%25bA%25ba%25Ec%25A9%25A0%25Ec%25AD%25Am%25Ec%25lB%25BE%25E9%25Bl%25Am%25El%25Am%25bmAzdH3F900lbd8&amp;gsm=1e&amp;rpstart=0&amp;rpnum=0&amp;islist=&amp;querylist=&amp;nojc=undefined&amp;dyTabStr=MCwxMiwzLDEsMiwxMyw3LDYsNSw5&amp;lid=11740994589525757806" alt="临潼校区图书馆"><br><em>临潼校区图书馆前的那棵梧桐，见证了无数个敲代码的深夜</em></p><span id="more"></span><h3 id="一、技术之路的起点：西科岁月"><a href="#一、技术之路的起点：西科岁月" class="headerlink" title="一、技术之路的起点：西科岁月"></a>一、技术之路的起点：西科岁月</h3><p>2017-2021年就读于西安科技大学电子信息专业，在信号处理与嵌入式系统课程设计中，第一次用Python实现了基于小波变换的测井信号去噪算法，这段经历为我后来的工业软件开发埋下伏笔。2021年毕业后加入陕西太合智能钻探有限公司，开启了我的全栈开发之旅。</p><h3 id="二、工业软件攻坚：Python-Qt测井系统开发"><a href="#二、工业软件攻坚：Python-Qt测井系统开发" class="headerlink" title="二、工业软件攻坚：Python/Qt测井系统开发"></a>二、工业软件攻坚：Python/Qt测井系统开发</h3><p><strong>项目背景</strong>：传统测井数据分析依赖国外商业软件，存在数据兼容性差、定制功能缺失等问题</p><p><strong>技术架构</strong>：</p><ul><li>采用PyQt5框架构建GUI界面，实现多文档视图架构</li><li>开发数据解析模块，支持LAS2.0/3.0、DLIS等测井标准格式</li><li>基于Matplotlib实现动态曲线绘制，支持200+测井曲线的同屏渲染</li><li>集成机器学习模块（Scikit-learn），实现自动异常值检测</li></ul><p><strong>技术突破</strong>：</p><ol><li>研发基于OpenGL的GPU加速渲染引擎，将大规模测井曲线绘制效率提升400%</li><li>设计智能缓存机制，支持20GB+测井数据文件的流畅操作</li><li>实现与Modbus协议的实时通信模块，可直接对接井下仪器</li></ol><h3 id="三、内部网站系统开发：检验检测后台管理系统"><a href="#三、内部网站系统开发：检验检测后台管理系统" class="headerlink" title="三、内部网站系统开发：检验检测后台管理系统"></a>三、内部网站系统开发：检验检测后台管理系统</h3><p><strong>项目背景</strong>：本项目是为陕西太合智能钻探有限公司开发的检验检测后台管理系统，旨在实现检验检测业务的全流程数字化管理。系统采用前后端分离架构，后端基于 <strong>Spring Boot + MyBatis Plus</strong>，前端基于 <strong>Vue 3 + Element Plus</strong>，实现了从检测任务分配到报告生成的全流程管理。</p><hr><p><strong>技术栈</strong><br><strong>后端技术栈</strong></p><ul><li><strong>核心框架</strong>：Spring Boot 2.7.x</li><li><strong>ORM 框架</strong>：MyBatis Plus</li><li><strong>数据库</strong>：MySQL 8.0</li><li><strong>缓存</strong>：Redis（用于高频数据缓存和分布式锁）</li><li><strong>消息队列</strong>：RabbitMQ（用于异步任务处理）</li><li><strong>文件存储</strong>：MinIO（用于检测报告和附件存储）</li><li><strong>权限控制</strong>：Spring Security + JWT</li><li><strong>接口文档</strong>：Swagger 3.0</li><li><strong>部署</strong>：Docker + Jenkins</li></ul><p><strong>前端技术栈</strong></p><ul><li><strong>核心框架</strong>：Vue 3</li><li><strong>UI 组件库</strong>：Element Plus</li><li><strong>状态管理</strong>：Vuex</li><li><strong>路由管理</strong>：Vue Router</li><li><strong>数据可视化</strong>：ECharts</li><li><strong>构建工具</strong>：Vite</li></ul><hr><p><strong>功能模块</strong><br><strong>1. 用户管理</strong></p><ul><li><strong>功能描述</strong>：实现用户信息的增删改查、角色分配、权限管理。</li><li><strong>技术实现</strong>：<ul><li>基于 RBAC（角色基于访问控制）模型设计权限系统。</li><li>使用 JWT 实现无状态登录认证。</li><li>集成 Spring Security 实现接口级别的权限控制。</li></ul></li></ul><p><strong>2. 检测任务管理</strong></p><ul><li><strong>功能描述</strong>：实现检测任务的创建、分配、进度跟踪和结果上传。</li><li><strong>技术实现</strong>：<ul><li>使用 MyBatis Plus 动态 SQL 实现多条件查询。</li><li>集成 RabbitMQ 实现任务分配和状态更新的异步通知。</li><li>使用 Redis 缓存高频查询的任务状态数据。</li></ul></li></ul><p><strong>3. 检测报告管理</strong></p><ul><li><strong>功能描述</strong>：实现检测报告的生成、审核、下载和归档。</li><li><strong>技术实现</strong>：<ul><li>基于 Apache POI 实现动态报告模板生成。</li><li>使用 MinIO 存储生成的报告文件。</li><li>集成 Elasticsearch 实现报告全文检索。</li></ul></li></ul><p><strong>4. 仪器设备管理</strong></p><ul><li><strong>功能描述</strong>：实现仪器设备的登记、校准、维护和状态监控。</li><li><strong>技术实现</strong>：<ul><li>使用 WebSocket 实现仪器实时数据采集。</li><li>基于 Quartz 实现设备校准提醒任务调度。</li></ul></li></ul><p><strong>5. 数据统计与可视化</strong></p><ul><li><strong>功能描述</strong>：实现检测数据的多维度统计分析和可视化展示。</li><li><strong>技术实现</strong>：<ul><li>使用 ECharts 实现数据可视化。</li><li>基于 MyBatis Plus 的聚合函数实现数据统计。</li></ul></li></ul><hr><p><strong>核心代码示例</strong><br><strong>1. 后端代码（Spring Boot + MyBatis Plus）</strong></p><pre class=" language-language-java"><code class="language-language-java">// 检测任务服务层实现@Servicepublic class InspectionTaskServiceImpl extends ServiceImpl<InspectionTaskMapper, InspectionTask> implements InspectionTaskService {    @Autowired    private RabbitTemplate rabbitTemplate;    @Override    public void createTask(InspectionTask task) {        // 保存任务到数据库        save(task);        // 发送任务分配消息到消息队列        rabbitTemplate.convertAndSend("taskExchange", "task.routingKey", task);    }}// 检测任务控制器@RestController@RequestMapping("/api/task")public class InspectionTaskController {    @Autowired    private InspectionTaskService taskService;    @PostMapping("/create")    public ResponseEntity<String> createTask(@RequestBody InspectionTask task) {        taskService.createTask(task);        return ResponseEntity.ok("任务创建成功");    }}</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 个人随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 职业成长 </tag>
+            
+            <tag> 技术分享 </tag>
+            
+            <tag> 西科校友 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
