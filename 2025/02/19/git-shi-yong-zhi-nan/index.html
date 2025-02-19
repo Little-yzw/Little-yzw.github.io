@@ -4,11 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="从秦岭脚下到代码世界——一名西科IT人的成长之路, 技术研发、成长经历">
-    <meta name="description" content="临潼校区图书馆前的那棵梧桐，见证了无数个敲代码的深夜
-
-
-一、技术之路的起点：西科岁月2021-2024年就读于西安科技大学电子信息专业，在研究生生涯中，使用Python实现了基于小波变换的行人加速度信号去噪算法、基于机器学习与神经网络的运">
+    <meta name="keywords" content="开源项目源码管理及本地与远程仓库管理, 技术研发、成长经历">
+    <meta name="description" content="开源项目源码管理及本地与远程仓库管理在日常开发中，我们常常需要对开源项目进行二次开发或维护。Git作为版本控制工具，提供了强大的功能来管理本地和远程仓库。本文将详细介绍如何高效地管理开源项目的源码，以及如何在本地和远程仓库之间进行同步和更新">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -20,7 +17,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>从秦岭脚下到代码世界——一名西科IT人的成长之路 | Xiaoyuan&#39;s Diarys</title>
+    <title>开源项目源码管理及本地与远程仓库管理 | Xiaoyuan&#39;s Diarys</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
 
@@ -339,12 +336,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/19.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/7.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">从秦岭脚下到代码世界——一名西科IT人的成长之路</h1>
+                    <h1 class="description center-align post-title">开源项目源码管理及本地与远程仓库管理</h1>
                 </div>
             </div>
         </div>
@@ -372,12 +369,8 @@
                                 <span class="chip bg-color">技术分享</span>
                             </a>
                         
-                            <a href="/tags/%E8%81%8C%E4%B8%9A%E6%88%90%E9%95%BF/">
-                                <span class="chip bg-color">职业成长</span>
-                            </a>
-                        
-                            <a href="/tags/%E8%A5%BF%E7%A7%91%E6%A0%A1%E5%8F%8B/">
-                                <span class="chip bg-color">西科校友</span>
+                            <a href="/tags/Git/">
+                                <span class="chip bg-color">Git</span>
                             </a>
                         
                     </div>
@@ -388,8 +381,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E4%B8%AA%E4%BA%BA%E9%9A%8F%E7%AC%94/" class="post-category">
-                                个人随笔
+                            <a href="/categories/%E6%8A%80%E6%9C%AF%E6%8F%90%E5%8D%87/" class="post-category">
+                                技术提升
                             </a>
                         
                     </div>
@@ -401,7 +394,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2025-02-05
+                    2025-02-19
                 </div>
                 
 
@@ -422,129 +415,68 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p><em>临潼校区图书馆前的那棵梧桐，见证了无数个敲代码的深夜</em></p>
-<span id="more"></span>
-
-<h3 id="一、技术之路的起点：西科岁月"><a href="#一、技术之路的起点：西科岁月" class="headerlink" title="一、技术之路的起点：西科岁月"></a>一、技术之路的起点：西科岁月</h3><p>2021-2024年就读于西安科技大学电子信息专业，在研究生生涯中，使用Python实现了基于小波变换的行人加速度信号去噪算法、基于机器学习与神经网络的运动状态识别算法、pdr定位算法，这段经历为我后来的工业软件开发埋下伏笔。2024年毕业后加入陕西太合智能钻探有限公司，开启了我的全栈开发之旅。</p>
-<h3 id="二、工业软件攻坚：Python-Qt测井系统开发"><a href="#二、工业软件攻坚：Python-Qt测井系统开发" class="headerlink" title="二、工业软件攻坚：Python/Qt测井系统开发"></a>二、工业软件攻坚：Python/Qt测井系统开发</h3><p><strong>项目背景</strong>：传统测井数据分析依赖国外商业软件，存在数据兼容性差、定制功能缺失等问题</p>
-<p><strong>技术架构</strong>：</p>
-<ul>
-<li>采用PyQt5框架构建GUI界面，实现多文档视图架构</li>
-<li>开发数据解析模块，支持LAS2.0/3.0、DLIS等测井标准格式</li>
-<li>基于Matplotlib实现动态曲线绘制，支持200+测井曲线的同屏渲染</li>
-<li>集成机器学习模块（Scikit-learn），实现自动异常值检测</li>
-</ul>
-<p><strong>技术突破</strong>：</p>
-<ol>
-<li>研发基于OpenGL的GPU加速渲染引擎，将大规模测井曲线绘制效率提升400%</li>
-<li>设计智能缓存机制，支持20GB+测井数据文件的流畅操作</li>
-<li>实现与Modbus协议的实时通信模块，可直接对接井下仪器</li>
-</ol>
-<h3 id="三、内部网站系统开发：检验检测后台管理系统"><a href="#三、内部网站系统开发：检验检测后台管理系统" class="headerlink" title="三、内部网站系统开发：检验检测后台管理系统"></a>三、内部网站系统开发：检验检测后台管理系统</h3><p><strong>项目背景</strong>：本项目是为陕西太合智能钻探有限公司开发的检验检测后台管理系统，旨在实现检验检测业务的全流程数字化管理。系统采用前后端分离架构，后端基于 <strong>Spring Boot + MyBatis Plus</strong>，前端基于 <strong>Vue 3 + Element Plus</strong>，实现了从检测任务分配到报告生成的全流程管理。</p>
-<hr>
-<p><strong>技术栈</strong><br><strong>后端技术栈</strong></p>
-<ul>
-<li><strong>核心框架</strong>：Spring Boot 2.7.x</li>
-<li><strong>ORM 框架</strong>：MyBatis Plus</li>
-<li><strong>数据库</strong>：MySQL 8.0</li>
-<li><strong>缓存</strong>：Redis（用于高频数据缓存和分布式锁）</li>
-<li><strong>消息队列</strong>：RabbitMQ（用于异步任务处理）</li>
-<li><strong>文件存储</strong>：MinIO（用于检测报告和附件存储）</li>
-<li><strong>权限控制</strong>：Spring Security + JWT</li>
-<li><strong>接口文档</strong>：Swagger 3.0</li>
-<li><strong>部署</strong>：Docker + Jenkins</li>
-</ul>
-<p><strong>前端技术栈</strong></p>
-<ul>
-<li><strong>核心框架</strong>：Vue 3</li>
-<li><strong>UI 组件库</strong>：Element Plus</li>
-<li><strong>状态管理</strong>：Vuex</li>
-<li><strong>路由管理</strong>：Vue Router</li>
-<li><strong>数据可视化</strong>：ECharts</li>
-<li><strong>构建工具</strong>：Vite</li>
-</ul>
-<hr>
-<p><strong>功能模块</strong><br><strong>1. 用户管理</strong></p>
-<ul>
-<li><strong>功能描述</strong>：实现用户信息的增删改查、角色分配、权限管理。</li>
-<li><strong>技术实现</strong>：<ul>
-<li>基于 RBAC（角色基于访问控制）模型设计权限系统。</li>
-<li>使用 JWT 实现无状态登录认证。</li>
-<li>集成 Spring Security 实现接口级别的权限控制。</li>
-</ul>
-</li>
-</ul>
-<p><strong>2. 检测任务管理</strong></p>
-<ul>
-<li><strong>功能描述</strong>：实现检测任务的创建、分配、进度跟踪和结果上传。</li>
-<li><strong>技术实现</strong>：<ul>
-<li>使用 MyBatis Plus 动态 SQL 实现多条件查询。</li>
-<li>集成 RabbitMQ 实现任务分配和状态更新的异步通知。</li>
-<li>使用 Redis 缓存高频查询的任务状态数据。</li>
-</ul>
-</li>
-</ul>
-<p><strong>3. 检测报告管理</strong></p>
-<ul>
-<li><strong>功能描述</strong>：实现检测报告的生成、审核、下载和归档。</li>
-<li><strong>技术实现</strong>：<ul>
-<li>基于 Apache POI 实现动态报告模板生成。</li>
-<li>使用 MinIO 存储生成的报告文件。</li>
-<li>集成 Elasticsearch 实现报告全文检索。</li>
-</ul>
-</li>
-</ul>
-<p><strong>4. 仪器设备管理</strong></p>
-<ul>
-<li><strong>功能描述</strong>：实现仪器设备的登记、校准、维护和状态监控。</li>
-<li><strong>技术实现</strong>：<ul>
-<li>使用 WebSocket 实现仪器实时数据采集。</li>
-<li>基于 Quartz 实现设备校准提醒任务调度。</li>
-</ul>
-</li>
-</ul>
-<p><strong>5. 数据统计与可视化</strong></p>
-<ul>
-<li><strong>功能描述</strong>：实现检测数据的多维度统计分析和可视化展示。</li>
-<li><strong>技术实现</strong>：<ul>
-<li>使用 ECharts 实现数据可视化。</li>
-<li>基于 MyBatis Plus 的聚合函数实现数据统计。</li>
-</ul>
-</li>
-</ul>
-<hr>
-<p><strong>核心代码示例</strong><br><strong>1. 后端代码（Spring Boot + MyBatis Plus）</strong></p>
-<pre class=" language-language-java"><code class="language-language-java">// 检测任务服务层实现
-@Service
-public class InspectionTaskServiceImpl extends ServiceImpl<InspectionTaskMapper, InspectionTask> implements InspectionTaskService {
-
-    @Autowired
-    private RabbitTemplate rabbitTemplate;
-
-    @Override
-    public void createTask(InspectionTask task) {
-        // 保存任务到数据库
-        save(task);
-        // 发送任务分配消息到消息队列
-        rabbitTemplate.convertAndSend("taskExchange", "task.routingKey", task);
-    }
-}
-
-// 检测任务控制器
-@RestController
-@RequestMapping("/api/task")
-public class InspectionTaskController {
-
-    @Autowired
-    private InspectionTaskService taskService;
-
-    @PostMapping("/create")
-    public ResponseEntity<String> createTask(@RequestBody InspectionTask task) {
-        taskService.createTask(task);
-        return ResponseEntity.ok("任务创建成功");
-    }
-}
-</code></pre>
+                <h1 id="开源项目源码管理及本地与远程仓库管理"><a href="#开源项目源码管理及本地与远程仓库管理" class="headerlink" title="开源项目源码管理及本地与远程仓库管理"></a>开源项目源码管理及本地与远程仓库管理</h1><p>在日常开发中，我们常常需要对开源项目进行二次开发或维护。Git作为版本控制工具，提供了强大的功能来管理本地和远程仓库。本文将详细介绍如何高效地管理开源项目的源码，以及如何在本地和远程仓库之间进行同步和更新。</p>
+<h2 id="一、涉及命令："><a href="#一、涉及命令：" class="headerlink" title="一、涉及命令："></a>一、涉及命令：</h2><p>1、修改远程仓库别名：<br>git remote rename old-name new-name<br>2、查看已关联的远程仓库列表<br>命令：git remote -v<br>操作步骤后有输出结果参数解释说明。</p>
+<p>开源项目源码二开组织内部源码管理，并保持从开源项目源码中拉取/提交的能力<br>1、下载开源项目<br>git clone <a target="_blank" rel="noopener" href="https://gitee.com/your-repo-owner/xxxxx.git">https://gitee.com/your-repo-owner/xxxxx.git</a><br>cd xxxxx<br>2、在组织内部代码管理系统中创建仓库（此步骤在Web界面完成）。<br>3、关联本地仓库与组织内部远程仓库并推送代码<br>git remote add origin <a target="_blank" rel="noopener" href="http://gitee.com/xxxx/xxxxx.git">http://gitee.com/xxxx/xxxxx.git</a><br>git push -u origin branchName<br>注：如果本地是个新建的空文件夹时，需要先执行git init，让其具有git管理的属性。<br>4、进行日常的pull和push操作。<br>5、配置上游远程仓库(可选，需要跟踪上游的开源项目更新时配置)<br>git remote add upstream <a target="_blank" rel="noopener" href="https://gitee.com/xxx.git">https://gitee.com/xxx.git</a>  # 添加Gitee仓库为upstream远程仓库<br>6、检查关联远程仓里配置信息<br>git remote -v<br>输出结果如下：<br>origin  <a target="_blank" rel="noopener" href="https://github.com/username/repository.git">https://github.com/username/repository.git</a> (fetch)<br>origin  <a target="_blank" rel="noopener" href="https://github.com/username/repository.git">https://github.com/username/repository.git</a> (push)<br>upstream        <a target="_blank" rel="noopener" href="https://gitee.com/another-username/repository.git">https://gitee.com/another-username/repository.git</a> (fetch)<br>upstream        <a target="_blank" rel="noopener" href="https://gitee.com/another-username/repository.git">https://gitee.com/another-username/repository.git</a> (push)<br>7、拉取上游开源项目的更新<br>git fetch upstream  # 从upstream获取最新更改<br>8、合并从upstream获取的更新到本地分支（upstream配置好后，可执行第8条进行校验，避免报错：fatal: refusing to merge unrelated histories）<br>git checkout main  # 切换到你的主分支（假设是main，也可能是master或其他）<br>git merge upstream/main  # 合并upstream的main分支到你的主分支<br>错误及解决办法：<br>	报错信息：fatal: refusing to merge unrelated histories<br>	原因：正在尝试合并两个没有共同祖先（即没有共享历史）的分支或仓库。Git 默认不允许这样的合并，因为它无法确定如何合并这些完全不相关的历史记录。<br>	解决办法：<br>		1、强制合并，执行合并命令：git merge upstream/main  –allow-unrelated-histories<br>		2、IDEA中批量按目录或单个文件解决冲突：<br>			<img src="https://i-blog.csdnimg.cn/direct/62edf9a215044cbcb70a33d2fce9591a.png" alt="在这里插入图片描述"><br>		3、在其他文件加拉取一套新代码<br>		4、使用CCompare对本地分支和拉去的新代码进行比对，对独有非功能文件进行删除。<br>9、合并后推送到组织内部代码管理系统的远程仓库<br>git push gitea main  # 推送你的主分支到Gitea<br>10、推送代码给上游开源项目<br>git push upstream branchName</p>
+<p>eg：<br>git remote add upstream <a target="_blank" rel="noopener" href="https://gitee.com/xxx/xxx.git">https://gitee.com/xxx/xxx.git</a><br>git remote add upstream <a target="_blank" rel="noopener" href="https://gitee.com/xxx/xxx.git">https://gitee.com/xxx/xxx.git</a></p>
+<p>命令：git remote -v ，执行结果说明：<br>输出结果如下：<br>origin  <a target="_blank" rel="noopener" href="https://github.com/username/repository.git">https://github.com/username/repository.git</a> (fetch)<br>origin  <a target="_blank" rel="noopener" href="https://github.com/username/repository.git">https://github.com/username/repository.git</a> (push)<br>upstream        <a target="_blank" rel="noopener" href="https://gitee.com/another-username/repository.git">https://gitee.com/another-username/repository.git</a> (fetch)<br>upstream        <a target="_blank" rel="noopener" href="https://gitee.com/another-username/repository.git">https://gitee.com/another-username/repository.git</a> (push)<br>说明：<br>origin 和 upstream 是远程仓库的别名（remote names）<br>origin 通常用于指向你克隆仓库时自动添加默认使用的原始仓库<br>upstream 通常用于指向你想要跟踪其更新的另一个仓库（比如一个上游的开源项目）。<br>其他：upstream也可以换成别的名字 或 多加几条，只是起到后面链接的别称，方便在命令行中使用。<br>远程仓库都会有两个URL，fetch和push分别用于拉取和提交更改。</p>
+<h2 id="二、远端分支改名或删除："><a href="#二、远端分支改名或删除：" class="headerlink" title="二、远端分支改名或删除："></a>二、远端分支改名或删除：</h2><p>本地关联远端分支(远端分支已存在)：<br>	git branch –set-upstream-to=origin/main main  // 不用带remotes/<br>远端分支删除后本地还能看见解决办法：<br>	git fetch –prune // 从远程仓库获取最新的分支信息<br>	git branch -D &lt;分支名&gt; // 强制删除本地分支</p>
+<h2 id="三、GIT本地环境配置账号："><a href="#三、GIT本地环境配置账号：" class="headerlink" title="三、GIT本地环境配置账号："></a>三、GIT本地环境配置账号：</h2><p>git config –global user.name “用户名”<br>git config –global user.password “密码”<br>or<br>git config –global user.name=用户名<br>git config –global user.password=密码</p>
+<h2 id="四、GIT-本地创建分支后关联到远端新建的分支："><a href="#四、GIT-本地创建分支后关联到远端新建的分支：" class="headerlink" title="四、GIT 本地创建分支后关联到远端新建的分支："></a>四、GIT 本地创建分支后关联到远端新建的分支：</h2><p>远端分支路径eg：remotes/origin/develop<br>remotes：标识该分支路径存在于远程仓库<br>origin：远程仓库的名称。<br>develop：具体的分支名称（替换下面命令中的：remote_branch_name、local_branch_name）。<br>remote_branch_name： 远程仓库创建的分支名称，eg：develop。<br>local_branch_name： 要在本地创建的分支的名称，一般同远程分支名称，eg：develop。</p>
+<p>1.拉取远程新分支到本地（remote_branch_name/local_branch_name：末级名字，eg：develop）<br>git fetch origin remote_branch_name:local_branch_name<br>2.切换到本地分支<br>git checkout local_branch_name<br>3.创建本地分支与远程分支的关联<br>git branch –set-upstream-to=origin/remote_branch_name local_branch_name</p>
+<h2 id="五、GIT小乌龟导出所有修改的文件带目录层级路径："><a href="#五、GIT小乌龟导出所有修改的文件带目录层级路径：" class="headerlink" title="五、GIT小乌龟导出所有修改的文件带目录层级路径："></a>五、GIT小乌龟导出所有修改的文件带目录层级路径：</h2><p>1.小乌龟打开Git-Commit，列出本地所有修改的文件。<br>2.选中需要导出的文件右键（可多选）<br>3.点击 Export selection to…，弹框选择存放路径即可。</p>
+<h2 id="六、GIT主流的代码分支管理："><a href="#六、GIT主流的代码分支管理：" class="headerlink" title="六、GIT主流的代码分支管理："></a>六、GIT主流的代码分支管理：</h2><p>master：<br>注分支，生产环境发版使用的代码。<br>主分支 生产发版的分支，需要确保稳定、随时/随CommitId可发版；<br>release：<br>预发版分支，保持与master代码一致，预发环境测试验证通过之后，上线之前，整体合并release到master 分支。<br>灰度环境，分支代码、服务器等各依赖环境保持和生产环境一致。</p>
+<p>develop：<br>开发环境分支，变动频繁 所有开发人员开发的功能会合并到次分支在，个人分支基于 develop，开发完后也应合并到此分支,发布测试环境；<br>内部测试人员使用。<br>develop-*<br>个人开发分支，develop-张三，个人从release拉取分支，完成自己的新功能开发后，合并到develop发测试环境验证，通过后，提交release分支发预发版环境验证。</p>
+<p>bugfix - 生产环境问题紧急修复的分支，问题解决完后合并到，develop。</p>
+<h2 id="七、GIT-log用法："><a href="#七、GIT-log用法：" class="headerlink" title="七、GIT log用法："></a>七、GIT log用法：</h2><p>git只查看提交描述内容<br>	git log -1 –pretty=%B    // -1 表示commit次数，可根据查看多少修改设置，如：-10<br>	指定commitId：git log <commit> –pretty=%B</commit></p>
+<p>查看本地修改文件及修改日期：<br>Linux:<br>	git status -s | while read mode file; do echo $mode $file $(stat -c %y $file); done<br>window:<br>	git status -s | while read mode file; do echo $mode $(date –reference=$file +”%Y-%m-%d %H:%M:%S”) $file; done<br>OSX(source):<br>	git status -s | while read mode file; do echo $mode $(stat -f “%m” $file) $file; done|sort</p>
+<p>查看分支/合并日志：git log -10 –oneline –graph</p>
+<p>分支操作日志查看：git reflog<br>git reflog：查看所有引用（包括分支、标签和HEAD）的操作历史记录。<br>git reflog <ref>：查看指定引用（如分支名、标签名）的操作历史记录。<br>git reflog show <commit>：显示指定提交的操作历史记录。<br>git reflog –all：查看所有引用（包括已删除的）的操作历史记录。</commit></ref></p>
+<p>简易日志：git log -10 –oneline</p>
+<p>查看某次提交的文件列表：git show 9ddc9dca00b –stat<br>同步远程分支列表：git fetch<br>退出git命令行：shift+: =&gt; q<br>查看本地分支和远端分支对照关系：<br>git branch -vv 或 git remote show origin<br>查看远端分支列表及当前commitid：git  ls-remote</p>
+<h2 id="八、Git-合并分支："><a href="#八、Git-合并分支：" class="headerlink" title="八、Git 合并分支："></a>八、Git 合并分支：</h2><p>前提：将需要合并的两个分支都更新到最新。<br>1、切换到xxxx分支下<br>	git checkout xxxx<br>2、将本地xxxx分支代码更新到最新<br>	git pull<br>3、切换到目标合并分支上，并更新代码到最新<br>	git checkout 分支名<br>	git pull<br>4、merge合并xxxx分支代码到当前分支<br>	git merge xxxx<br>5、解决冲突<br>6、将本地跟新好的内容push到分支<br>	git push</p>
+<h2 id="九、Git-合并分支："><a href="#九、Git-合并分支：" class="headerlink" title="九、Git 合并分支："></a>九、Git 合并分支：</h2><p>前提：将需要合并的两个分支都更新到最新。<br>1、切换到xxxx分支下<br>	git checkout xxxx<br>2、将本地xxxx分支代码更新到最新<br>	git pull<br>3、切换到目标合并分支上，并更新代码到最新<br>	git checkout 分支名<br>	git pull<br>4、merge合并xxxx分支代码到当前分支<br>	git merge xxxx<br>5、解决冲突<br>6、将本地跟新好的内容push到分支<br>	git push</p>
+<h2 id="十、Git-GIT合并指定commit到当前分支："><a href="#十、Git-GIT合并指定commit到当前分支：" class="headerlink" title="十、Git GIT合并指定commit到当前分支："></a>十、Git GIT合并指定commit到当前分支：</h2><p>git checkout branchX<br>git cherry-pick commitId<br>git push<br>注：解决冲突时注意合并文件左边的+-符号，再觉得从上面的左边还是右边合入。</p>
+<h2 id="十一、git-merge后回退："><a href="#十一、git-merge后回退：" class="headerlink" title="十一、git merge后回退："></a>十一、git merge后回退：</h2><p>查看分支操作历史记录用：git reflog 命令。</p>
+<p>方法1：参考上面：GIT撤销commit、add和merge 的内容。</p>
+<p>2、如果本地修改不需要了，可以直接用远端分支强行覆盖本地分支：<br><strong>谨慎使用：放弃本地所有操作，并使用指定分支覆盖本地</strong>（也可以处理操作失误导致commit日志混乱的问题）<br>git fetch –all &amp;&amp; git reset –hard origin/分支名称</p>
+<p>放弃本地所有操作：git fetch –all<br>重新拉取分支覆盖本地：git reset –hard origin/<branch_name></branch_name></p>
+<h2 id="十二、GIT-MERGE时本地解决冲突："><a href="#十二、GIT-MERGE时本地解决冲突：" class="headerlink" title="十二、GIT MERGE时本地解决冲突："></a>十二、GIT MERGE时本地解决冲突：</h2><h1 id="冲突文件位置提示：-HEAD"><a href="#冲突文件位置提示：-HEAD" class="headerlink" title="冲突文件位置提示：<<<<<<< HEAD本地代码"></a>冲突文件位置提示：<br>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD<br>本地代码</h1><p>拉下来的代码</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>如果这样的提示都处理完了 git status还提示both modified，则使用git可视化工具：<br>Git-Commit双击冲突文件对比添加需要保留的内容，这样冲突文件就不会再提示了。</p>
+<h2 id="十三、GIT分支合并、更新时代码冲突解决："><a href="#十三、GIT分支合并、更新时代码冲突解决：" class="headerlink" title="十三、GIT分支合并、更新时代码冲突解决："></a>十三、GIT分支合并、更新时代码冲突解决：</h2><p>git pull时提示：<br>error: Your local changes to the following files would be overwritten by merge:<br>		xxxxxxxxxxxx<br>Please commit your changes or stash them before you merge.</p>
+<p>方法一：(用GIT的方式解决)<br>本地修改先放入暂存区，然后拉代码，恢复暂存区修改代码，在本地形成代码冲突再解决。<br>git pull时提示代码冲突，解决办法：<br>1、git stash ：将修改的内容保存至堆栈区 每个git stash也有它自己的commitId，也可以作为git回退等操作的节点。<br>	带保存日志eg：git stash save “develop-bug-fix：xxxx”<br>2、git pull ： 更新代码<br>3、	&gt; git stash pop  恢复暂存时也会删除暂存记录<br>	&gt; git stash pop stash@{0}：恢复暂存时不会删除暂存记录<br>4、本地解决冲突文件<br>	&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream<br>		git pull拉下来的内容<br>	=======<br>		stash 恢复的备份内容，即本地修改的内容<br>	&gt;&gt;&gt;&gt;&gt;&gt;&gt; Stashed changes<br>5、将解决完的冲突文件执行 git add xxxx<br>6、提交代码<br>相关命令：<br>	git stash list：查看暂存区的备份列表，<br>	git stash clear：清空暂存区。</p>
+<p>方法二：（手动解决，适合文件较少的情况）<br>将冲突文件复制到另一个暂存的文件夹，然后将文件revert回会修改版本，执行git pull拉取最新代码，<br>然后通过Beyond Compare对比将暂存文件夹里面文件修改合到项目代码中。</p>
+<h2 id="十四、GIT撤销commit、add和merge："><a href="#十四、GIT撤销commit、add和merge：" class="headerlink" title="十四、GIT撤销commit、add和merge："></a>十四、GIT撤销commit、add和merge：</h2><p>使用TortoiseGit可视化工具提交代码前未更新最新代码，导致提交失败时，撤销commit及add后拉取远程最新代码后再提交。</p>
+<p>注：merge前如果本地有未开发完的代码，需要先将改的内容保存至堆栈区,使用命令，git stash，参考上面【GIT暂存本地修改，合并分支或拉取远端代码到本地库，然后还原本地修改】块的内容，每个git stash也有它自己的commitId，也可以作为git回退等操作的节点，回退到指定commitID后，merge过来的文件不会自动删除，看好状态，需要手动删下。</p>
+<p>注意：禁止使用 –hard 参数，它会删除回退点之后的所有提交和修改信息，除非需要远端版本强制回退。<br>1、 撤销commit，到add状态<br>	撤销commit，到add状态：git reset –soft HEAD^<br>2、 撤销commit，到add之前的状态<br>	不带参数时默认为（–mixed 模式），用于重置暂存区的文件与目标的(commit)保持一致，工作区文件内容保持不变。<br>	&gt; 撤销add：git reset HEAD^			//将所有add/commit后的file退回到add之前的状态，即本地修改状态。<br>	&gt; 撤销指定文件的add：git reset HEAD xxx/文件名  //撤销指定文件的add操作。<br>	2中的操作操作会使得被操作的文件图标从绿色变红色。<br>3、对于红色的文件，分两种情况，一种是自己本地修改的，一种是merge过来的，如果是merge过来的，直接删除就行。</p>
+<p>HEAD 说明：<br>	HEAD / HEAD<del>0 : 表示当前版本<br>	HEAD^ / HEAD</del>1  : 上一个版本<br>	HEAD^^ / HEAD~2  : 上上一个版本<br>	………依次类推<br>	或指定commitId：git reset –soft commitId / git reset commitId </p>
+<h2 id="十五、网页创建新分支后本地看不到解决方法："><a href="#十五、网页创建新分支后本地看不到解决方法：" class="headerlink" title="十五、网页创建新分支后本地看不到解决方法："></a>十五、网页创建新分支后本地看不到解决方法：</h2><p>本地手动更新下，执行如下命令：<br>git fetch origin</p>
+<p>之后从Remote Branches中Check Out到本地。</p>
+<h2 id="十六、Git打差异更新包："><a href="#十六、Git打差异更新包：" class="headerlink" title="十六、Git打差异更新包："></a>十六、Git打差异更新包：</h2><p>new commit ID: 4033ef7b2714d1ccf56b8a60f9607857b1804987<br>old commit ID: a36014b1ad40bed835f755120def1f948451f2ba<br>从old commit ID到new commit ID的差异文件，不包含old commit ID,包含new commit ID修改的文件。</p>
+<p>window下git bash中用tar打包，执行如下：<br>git diff 4033ef7 a36014b1 –name-only | xargs tar -czvf update-xxxx.tar.gz</p>
+<p>Linux下用zip打包，执行如下：<br>git diff 4033ef7 a36014b1 –name-only | xargs gzip &gt; update-xxxx.zip</p>
+<h2 id="十七、Fork-项目更新："><a href="#十七、Fork-项目更新：" class="headerlink" title="十七、Fork 项目更新："></a>十七、Fork 项目更新：</h2><p>#用git remote查看远程主机状态<br>git remote -v </p>
+<p>#添加远程仓库<br>git remote add upstream <a href="mailto:git@github.com">git@github.com</a>:xxx/xxx.git<br>//git remote remove upstream 删除远程仓库</p>
+<p>#从源仓库同步更新代码<br>git fetch upstream</p>
+<p>#合并到本地代码<br>git merge upstream/master</p>
+<p>#push<br>git push </p>
+<h2 id="十八、GIT强制回退已提交-远端库代码-的代码（慎用）："><a href="#十八、GIT强制回退已提交-远端库代码-的代码（慎用）：" class="headerlink" title="十八、GIT强制回退已提交(远端库代码)的代码（慎用）："></a>十八、GIT强制回退已提交(远端库代码)的代码（慎用）：</h2><p>1、找到要回退commit的ID： commitId<br>2、回退本地代码：git reset –hard commitId<br>3、强制提交本地代码到远端库：<br>git push -u origin 分支名 –force<br>（git push develop develop –force  (本地分支和远程分支都是 develop)）</p>
+<p>回退到上一个版本：git reset –hard HEAD^ </p>
+<h2 id="十九、合同develop历史commit节点到master："><a href="#十九、合同develop历史commit节点到master：" class="headerlink" title="十九、合同develop历史commit节点到master："></a>十九、合同develop历史commit节点到master：</h2><p>0、备份develop和master分支。<br>1、develop分支 reset –hard commitId<br>2、切换到master分支<br>3、在master使用git merge develop将当前本地的develop代码合并到master。<br>4、master分支 git push 提交合过来的代码。<br>5、切回develop，使用git pull将develop更新到最新。<br>6、删除develop和master备份分支。</p>
 
                 
             </div>
@@ -571,7 +503,7 @@ public class InspectionTaskController {
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://Little-yzw.github.io/2025/02/05/ge-ren-gong-zuo-jing-li/">http://Little-yzw.github.io/2025/02/05/ge-ren-gong-zuo-jing-li/</a>
+                    <a href="http://Little-yzw.github.io/2025/02/19/git-shi-yong-zhi-nan/">http://Little-yzw.github.io/2025/02/19/git-shi-yong-zhi-nan/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -613,12 +545,8 @@ public class InspectionTaskController {
                                     <span class="chip bg-color">技术分享</span>
                                 </a>
                             
-                                <a href="/tags/%E8%81%8C%E4%B8%9A%E6%88%90%E9%95%BF/">
-                                    <span class="chip bg-color">职业成长</span>
-                                </a>
-                            
-                                <a href="/tags/%E8%A5%BF%E7%A7%91%E6%A0%A1%E5%8F%8B/">
-                                    <span class="chip bg-color">西科校友</span>
+                                <a href="/tags/Git/">
+                                    <span class="chip bg-color">Git</span>
                                 </a>
                             
                         </div>
@@ -697,9 +625,64 @@ public class InspectionTaskController {
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
+            <div class="card">
+                <a href="/2025/02/19/git-shi-yong-zhi-nan/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="开源项目源码管理及本地与远程仓库管理">
+                        
+                        <span class="card-title">开源项目源码管理及本地与远程仓库管理</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2025-02-19
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E6%8A%80%E6%9C%AF%E6%8F%90%E5%8D%87/" class="post-category">
+                                    技术提升
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/">
+                        <span class="chip bg-color">技术分享</span>
+                    </a>
+                    
+                    <a href="/tags/Git/">
+                        <span class="chip bg-color">Git</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
             <div class="card">
                 <a href="/2025/02/06/hello-world/">
                     <div class="card-image">
@@ -717,9 +700,9 @@ public class InspectionTaskController {
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2025-02-06
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2025-02-06
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -727,64 +710,6 @@ public class InspectionTaskController {
                             
                         </span>
                     </div>
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
-            </div>
-            <div class="card">
-                <a href="/2025/02/05/ge-ren-gong-zuo-jing-li/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="从秦岭脚下到代码世界——一名西科IT人的成长之路">
-                        
-                        <span class="card-title">从秦岭脚下到代码世界——一名西科IT人的成长之路</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            临潼校区图书馆前的那棵梧桐，见证了无数个敲代码的深夜
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2025-02-05
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/%E4%B8%AA%E4%BA%BA%E9%9A%8F%E7%AC%94/" class="post-category">
-                                    个人随笔
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/">
-                        <span class="chip bg-color">技术分享</span>
-                    </a>
-                    
-                    <a href="/tags/%E8%81%8C%E4%B8%9A%E6%88%90%E9%95%BF/">
-                        <span class="chip bg-color">职业成长</span>
-                    </a>
-                    
-                    <a href="/tags/%E8%A5%BF%E7%A7%91%E6%A0%A1%E5%8F%8B/">
-                        <span class="chip bg-color">西科校友</span>
-                    </a>
-                    
                 </div>
                 
             </div>
